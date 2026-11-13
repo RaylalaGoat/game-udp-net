@@ -1,0 +1,29 @@
+# ===== ビルドでできるもの (ソースから作り直せるので入れない) =====
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.iobj
+*.ipdb
+*.idb
+*.log
+*.tlog
+*.lastbuildstate
+
+# ===== Visual Studio の個人設定 (自分の PC のパスが入る) =====
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# ===== その他 =====
+*.aps
+Thumbs.db
+.DS_Store
